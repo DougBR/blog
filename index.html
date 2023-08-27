@@ -1,18 +1,20 @@
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-	<meta charset="UTF-8">
-	<title>Douglas Luan</title>
-</head>
+---
+layout: default
+---
 
-<body style="background-color:#ACFFFF; text-align:center;">
-    <h1 style="font-size: 450%; font-family: Verdana; color: #8B8B8B;">WELCOME TO A WORLD POWERED</h1>
-    <a style="font-family: Sans-serif; color: #EDEDED; font-size: 200%;">By Knowledge</a>
-    <br />
-    <a style="font-family: Sans-serif; color: #9C9C9C;">This site is</a>
-    <br />
-    <a style="font-family: Sans-serif; color: #EDEDED; font-size: 90%;">Still</a>
-    <br />
-    <a style="font-family: Sans-serif; color: #9C9C9C;">Under construction</a>
-</body>
-</html>
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
