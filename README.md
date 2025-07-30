@@ -1,6 +1,6 @@
 # Douglas Luan
 
-A blog content managed with [Hugo](https://gohugo.io)
+My personal and professional blog, to discuss ideas and projects.
 
 ## Setup
 
