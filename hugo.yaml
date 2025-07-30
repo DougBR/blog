@@ -43,8 +43,8 @@ params:
     subtitle: "A curious mind, always-learning engineer with experience in machine learning, web development and product discovery, mostly in the financial sector."
     imageUrl: "images/profile.jpg"
     imageTitle: "Douglas Luan profile picture."
-    imageWidth: 4000
-    imageHeight: 3000
+    imageWidth: 240
+    imageHeight: 180
 
   socialIcons:
     - name: "linkedin"
