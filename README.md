@@ -1,30 +1,11 @@
-Agency Jekyll theme
-====================
+# Daniel WS
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6e706b21-574b-4647-9506-9078201076cd/deploy-status)](https://app.netlify.com/projects/danielws/deploys)
 
-Agency theme based on [Agency bootstrap theme ](https://startbootstrap.com/template-overviews/agency/)
+A blog content managed with [Hugo](https://gohugo.io)
 
-# How to use
+## Setup
+Clone the repository and update theme submodule (PaperMod)
 
-###Portfolio 
-
-Portfolio projects are in '/_posts'
-
-Images are in '/img/portfolio'
-
-###About
-
-Images are in '/img/about/'
-
-###Team
-
-Team members and info are in '_config.yml'
-
-Images are in '/img/team/'
-
-
-# Demo
-
-View this jekyll theme in action [here](https://y7kim.github.io/agency-jekyll-theme)
-
-=========
-For more details, read [documentation](http://jekyllrb.com/)
+```sh
+git submodule update --init --recursive
+```

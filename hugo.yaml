@@ -1,0 +1,51 @@
+baseURL: https://daniel.ws/
+languageCode: en-us
+env: production
+title: DougBR
+theme: ["PaperMod"]
+outputs:
+  home:
+    - HTML
+    - JSON
+
+menu:
+  main:
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 10
+
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+
+params:
+  defaultTheme: dark
+  ShowReadingTime: true
+  ShowToc: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
+
+  editPost:
+    URL: "https://github.com/DougBR/danielws-site/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true
+
+  profileMode:
+    enabled: true
+    title: "Douglas Luan"
+    subtitle: "A curious, always-learning engineer."
+    imageUrl: "images/sweden.jpg"
+    imageTitle: "Douglas Luan in boat on a lake in Sweden, near a dog."
+    imageWidth: 180
+    imageHeight: 180
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/dougform"
+    - name: "github"
+      url: "https://github.com/DougBR"
+    - name: "email"
+      url: "mailto:douglasctm@gmail.com"

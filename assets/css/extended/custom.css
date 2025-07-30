@@ -1,0 +1,3 @@
+footer.footer *:not(:first-child) {
+  display: none;
+}
