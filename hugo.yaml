@@ -33,7 +33,7 @@ params:
   ShowCodeCopyButtons: true
 
   editPost:
-    URL: "https://github.com/DougBR/danielws-site/tree/main/content"
+    URL: "https://github.com/DougBR/blog/tree/main/content"
     Text: "Suggest Changes"
     appendFilePath: true
 
