@@ -40,7 +40,7 @@ params:
   profileMode:
     enabled: true
     title: "Douglas Luan"
-    subtitle: "A curious, always-learning engineer."
+    subtitle: "A curious mind, always-learning engineer with experience in machine learning, web development and product discovery, mostly in the financial sector."
     imageUrl: "images/sweden.jpg"
     imageTitle: "Douglas Luan in boat on a lake in Sweden, near a dog."
     imageWidth: 180
