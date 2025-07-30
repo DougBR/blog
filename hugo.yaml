@@ -8,6 +8,10 @@ outputs:
     - HTML
     - JSON
 
+caches:
+  images:
+    dir: :cacheDir/images
+
 menu:
   main:
     - identifier: search
