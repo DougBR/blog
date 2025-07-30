@@ -15,4 +15,4 @@ If you are like me, you are always full of ideas of things you wanna do, be it p
 
 I will be quick here: [Just Start it](http://paulgraham.com/start.html).
 
--- Be back soon.
+-- Be back soon --.
