@@ -1,6 +1,6 @@
 # Douglas Luan
 
-This is the code for my personal and professional blog, to discuss ideas and projects.
+My personal and professional blog, to discuss ideas and projects.
 
 ## Setup
 
