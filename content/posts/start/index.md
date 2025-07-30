@@ -5,7 +5,7 @@ title: "Start"
 author: "Douglas Luan"
 
 cover:
-  image: "start.jpg"
+  image: "start.png"
   alt: "A road with START written just before the crosswalk"
   caption: "Just Start ritual"
   relative: true
