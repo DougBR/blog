@@ -7,7 +7,7 @@ author: "Douglas Luan"
 cover:
   image: "start.png"
   alt: "A road with START written just before the crosswalk"
-  caption: "Just Start ritual"
+  caption: "A thousand mile-long journey starts with the first step"
   relative: true
 ---
 
