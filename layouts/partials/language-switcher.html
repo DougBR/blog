@@ -1,0 +1,6 @@
+{{ $current := . }} {{ range $.Site.Languages }} {{ if eq .Lang $.Site.Language.Lang }} {{/* current language, skip */}}
+{{ else }} {{ with $current.Translations.GetByLang .Lang }}
+<a href="{{ .RelPermalink }}">{{ .Language.LanguageName }}</a>
+{{ else }}
+<a href="{{ .Site.Home.RelPermalink }}">{{ .Language.LanguageName }}</a>
+{{ end }} {{ end }} {{ end }}

@@ -1,7 +1,45 @@
 baseURL: https://dougbr.github.io
-languageCode: en-us
+languages:
+  en:
+    contentDir: content/english
+    languageCode: en-us
+    languageName: English
+    weight: 10
+    title: "Douglas Luan"
+    params:
+      profileMode:
+        enabled: true
+        title: "Douglas Luan"
+        subtitle: "A curious-minded, always-learning engineer with experience in machine learning, web development and product discovery, mostly in the financial sector."
+        imageUrl: "images/profile.jpg"
+        imageTitle: "Douglas Luan profile picture."
+        imageWidth: 200
+
+      editPost:
+        URL: "https://github.com/DougBR/dougbr.github.io/tree/main/content"
+        Text: "Suggest Changes"
+        appendFilePath: true
+  pt:
+    contentDir: content/portuguese
+    languageCode: pt-br
+    languageName: Português
+    weight: 20
+    title: "Douglas Luan"
+    params:
+      profileMode:
+        enabled: true
+        title: "Douglas Luan"
+        subtitle: "Um engenheiro de mente curiosa em constante aprendizado, com experiência em aprendizado de máquina, desenvolvimento web e descoberta de produtos, principalmente no setor financeiro."
+        imageUrl: "images/profile.jpg"
+        imageTitle: "Foto de perfil de Douglas Luan."
+        imageWidth: 200
+
+      editPost:
+        URL: "https://github.com/DougBR/dougbr.github.io/tree/main/content"
+        Text: "Sugerir alterações"
+        appendFilePath: true
+
 env: production
-title: DougBR
 theme: ["PaperMod"]
 outputs:
   home:
