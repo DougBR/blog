@@ -7,7 +7,7 @@ lang: "en"
 author: "Douglas Luan"
 
 cover:
-  image: "learn-doing.png"
+  image: "learndoing.png"
   alt: "A couple dice forming the words learning and doing"
   caption: "Tell me and I forget, teach me and I may remember, involve me and I learn -- Benjamin Franklin"
   relative: true
