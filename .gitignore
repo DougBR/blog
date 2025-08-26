@@ -9,6 +9,7 @@
 hugo_stats.json
 
 .DS_Store
+**.DS_Store
 # Temporary lock file while building
 /.hugo_build.lock
 
